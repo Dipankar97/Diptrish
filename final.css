@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(red 70px, white );
+}
+#loading{
+	position:fixed;
+	width:100%;
+	height: 100vh;
+	background:#fff url(oop.gif) no-repeat center;
+	z-index: 99999;
+}
+.container-fluid h1{
+	font-size: 110px;
+}
+.container-fluid p{
+	padding-left: 20px;
+	text-align: justify;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Lobster';
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-fluid{
+	padding: 20px;
+	text-align: center;
+}
+.card-text{
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.card img{
+	width: 100%;
+	height: auto;
+}
